@@ -16,4 +16,3 @@ dependencies:
     - pdf2image
     - seaborn
     - poppler
-    - jupyter_contrib_nbextensions
