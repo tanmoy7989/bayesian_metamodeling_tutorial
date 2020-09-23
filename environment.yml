@@ -1,0 +1,19 @@
+name: mmenv
+channels:
+    - conda-forge
+dependencies:
+    - numpy
+    - scipy
+    - matplotlib
+    - dill
+    - pandas
+    - mkl-service
+    - theano
+    - patsy
+    - arviz=0.5.1
+    - python-graphviz
+    - pymc3=3.8
+    - pdf2image
+    - seaborn
+    - poppler
+    - jupyter_contrib_nbextensions
