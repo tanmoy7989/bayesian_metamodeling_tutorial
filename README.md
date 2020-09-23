@@ -2,9 +2,7 @@
 
 ## [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-```markdown
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tanmoy7989/bayesian_metamodeling_tutorial.git/master)
-```
 
 This tutorial is supplementary to the manuscript [Bayesian metamodeling: divide-and-conquer modelng of complex systems across varying representations](www.pnas.org). *Metamodeling* is an unique probabilistic framework that may couple different simulation models at different length and time scales (and of different representations) to study the inter-dependency of the parameters and degrees of freedom of each model. As a candidate system for applying this novel methodology, we look at the process of coupling different models of the pancreatic beta-cell to develop a harmonized insight into cellular processes. In principle this framework should allow us to couple models of the cell that are very different from each other, e.g. pharmacokinetic models vs. molecular simulation models and the coupling framework should be agonistic to the spatio-temporal scale separations between the input models. While we aren't quite there yet, we present an implementation of metamodeling using toy models of the pancreatic beta cell. 
 
